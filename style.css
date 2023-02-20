@@ -59,3 +59,49 @@ body {
     padding: 10px 10px 0px 10px;
     
 }
+
+.image img{
+    width: 45vw;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.z-index{
+    background-color: black;
+    width: 25vw;
+    position: absolute;
+    z-index: 1;
+}
+
+.z-index img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.name p{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.one{
+    display: flex;
+}
+
+.one,
+.two{
+    padding-left: 25px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.image{
+    position: relative;
+    z-index: -1;
+}
+
+.mid{
+    display: flex;
+}
+

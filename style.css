@@ -27,21 +27,21 @@ body {
     padding-left: 150px;
     padding-top: 15px;
     padding-right: 30px;
-    
+
 }
 
 .navbar {
     height: 50px;
     margin-top: 30px;
     font-family: 'Montserrat', sans-serif;
-
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navbar-right {
     display: flex;
     justify-content: flex-end;
     height: 45px;
-    
 }
 
 .logo {
@@ -51,57 +51,89 @@ body {
     font-family: 'Crimson Pro', serif;
 }
 
-.material-symbols-outlined.md-10{
+.material-symbols-outlined.md-10 {
     font-size: 25px;
 }
 
-.text{
+.text {
     padding: 10px 10px 0px 10px;
-    
+    /* background-color: aqua; */
 }
 
-.image img{
-    width: 45vw;
+.text h1 {
+    font-family: Lora;
+    padding: 100px 253px 54px 54px;
+    font-size: 40px;
+}
+
+.text p {
+    font-family: Montserrat;
+    padding: 0px 253px 54px 54px;
+    font-size: 20px;
+}
+
+.text span {
+    padding: 0px 0px 54px 54px;
+}
+
+.image img {
+    width: 43vw;
     padding-right: 50px;
     padding-top: 50px;
 }
 
-.z-index{
+.z-index {
     background-color: black;
     width: 25vw;
     position: absolute;
     z-index: 1;
+    top: 500px;
+    left: 1080px;
 }
 
-.z-index img{
+.z-index img {
     border-radius: 50%;
     width: 50px;
 }
 
-.name p{
-    padding-left: 10px;
+.name p {
+    padding-left: 20px;
+    padding-top: 5px;
     font-size: 12px;
+    font-family: Montserrat;
 }
 
-.one{
+.one {
     display: flex;
 }
 
 .one,
-.two{
+.two {
     padding-left: 25px;
+    font-family: lora;
 }
 
-h3{
+h3 {
     font-size: 25px;
 }
 
-.image{
+.image {
     position: relative;
     z-index: -1;
 }
 
-.mid{
+.mid {
     display: flex;
 }
 
+.bottom {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #FFFFFF;
+}

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +26,6 @@ body {
     padding-left: 150px;
     padding-top: 15px;
     padding-right: 30px;
-
 }
 
 .navbar {
@@ -42,6 +40,10 @@ body {
     display: flex;
     justify-content: flex-end;
     height: 45px;
+}
+
+.mobile-nav {
+    display: none;
 }
 
 .logo {
@@ -87,8 +89,8 @@ body {
     width: 25vw;
     position: absolute;
     z-index: 1;
-    top: 500px;
-    left: 1080px;
+    bottom: 20%;
+    left: 69%;
 }
 
 .z-index img {

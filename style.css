@@ -56,16 +56,16 @@ body {
     font-size: 25px;
 }
 
-.arrow{
+.arrow {
     /* position: relative;
     top: 8px;
     left: -10px; */
-   transform: translate(10px,8px);
-   transition: all .5s;    
+    transform: translate(10px, 8px);
+    transition: all .5s;
 }
 
-.arrow:hover{
-    transform: translate(20px, 8px) ;
+.arrow:hover {
+    transform: translate(20px, 8px);
     cursor: pointer;
 }
 
@@ -153,19 +153,19 @@ h3 {
     color: #FFFFFF;
 }
 
-.mobile-nav{
+.mobile-nav {
     height: 2rem;
     width: 2rem;
 }
 
-.mobile-navbar-btn{
+.mobile-navbar-btn {
     display: none;
     cursor: pointer;
     /* background: transparent; */
-    
+
 }
 
-.close{
+.close {
     display: none;
 }
 
@@ -173,19 +173,19 @@ h3 {
 
 @media screen and (max-width: 600px) {
 
-    body{
+    body {
         width: 100vw;
-
+        position: relative;
     }
 
-    .logo{
+    .logo {
         margin-top: 20px;
     }
 
-    .text h1{
+    .text h1 {
         font-size: 40px;
         padding: 50px 0px 0px 30px;
-        
+
     }
 
     .text p {
@@ -194,89 +194,93 @@ h3 {
         font-size: 15px;
     }
 
-    .read-more{
+    .read-more {
         padding: 0px 0px 0px 30px;
     }
-    
-    .arrow{
-        padding: 0px 0px 0px 50px;
-    }
 
-    .mid{
+
+
+    .mid {
         overflow: hidden;
         flex-direction: column;
     }
 
-    .navbar{
+    .navbar {
         position: relative;
         margin: 0;
     }
 
-    .navbar-right{
+    .navbar-right {
         padding-right: 100px;
         height: 100vh;
         width: 100%;
         position: fixed;
-        left:0;
-        top:0;
+        left: 0;
+        top: 0;
         background-color: #181719;
         /* background-color: orangered; */
-        
+
         z-index: 999;
         display: flex;
-        display: none
+        display: none;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;   
+        justify-content: space-evenly;
     }
 
-    .close{
+    .close {
         display: block;
         position: absolute;
         right: 2rem;
         top: 2rem
     }
 
-    .open{
+    .open {
         display: block;
         position: absolute;
         right: 2rem;
         top: 2rem
-
     }
 
-    .mobile-navbar-btn{
+    .mobile-navbar-btn {
         display: contents;
     }
 
-    .image img{
+    .image img {
         width: 520px;
         height: 25rem;
-        
+
     }
 
-    .image{
+    .image {
         padding-left: 20px;
+        position: relative;
+        z-index: -1;
     }
 
-    .z-index{
-        width: 65%;
+
+    .z-index {
+        width: 60vw;
+        z-index: 1;
+        position: absolute;
+        top: 90%;
+
+
     }
 
-    .name p{
+    .name p {
         padding-top: 6px;
         font-size: 10px;
     }
 
-    .two h3{
+    .two h3 {
         font-size: 20px;
     }
-    
-     .bottom {
+
+    .bottom {
         position: absolute;
         bottom: -14%;
         left: 25%;
     }
-
 
 }
